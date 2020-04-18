@@ -1,0 +1,27 @@
+{
+    "name": "Shades",
+    "version": "0.1",
+    "description": "Dark mode for any website.",
+    "permissions": ["activeTab"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["chroma.min.js","content.js"]
+    }],
+    "browser_action": {
+      "default_icon": {
+        "16": "images/icon_off_16.png",
+        "32": "images/icon_off_32.png",
+        "48": "images/icon_off_48.png",
+        "64": "images/icon_off_64.png",
+        "128": "images/icon_off_128.png",
+        "256": "images/icon_off_256.png",
+        "512": "images/icon_off_512.png",
+        "1024": "images/icon_off_1024.png"
+      }
+    },
+    "manifest_version": 2
+  }
