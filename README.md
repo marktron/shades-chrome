@@ -1,6 +1,8 @@
 # 🕶 Shades for Chrome
 
-This extension is a work in progress to add a sensible dark mode to any web page. Can you believe that it’s 2020 and some websites still don’t have built-in dark mode support?
+**🚧 Work in progress 🚧**
+
+This extension adds a sensible dark mode to any web page. Can you believe that it’s 2020 and some websites still don’t have built-in dark mode support?
 
 ## Installation
 
@@ -15,7 +17,7 @@ Until Shades is available in the [Chrome Web Store](https://chrome.google.com/we
 
 ## How it works
 
-When you click the Shades button in your toolbar, the extension scans the page and transforms the text, background, and border colors for every element into corresponding dark versions. Unlike every other dark mode extension I’ve used, Shades tries to maintain the site’s design aesthetic and visual hierarchies as much as possible. It tries to get as close as possible to what a real designer would choose if they were adding a dark mode to their site.
+When you click the Shades button in your toolbar, the extension scans the page and transforms the text, background, and border colors for every element into corresponding dark versions. Unlike every other dark mode extension I’ve used, Shades maintains the site’s design aesthetic and visual hierarchies as much as possible. It tries to get as close as possible to what a real designer would choose if they were adding a dark mode to their site.
 
 ## Shortcomings / To do
 
@@ -30,7 +32,7 @@ A partial list of things that don’t work great yet, or haven’t been attempte
 - Shades does not check to ensure updated text and background colors have sufficient contrast for accessibility.
 - Some sites have a dark header or footer and light body section. When you toggle Shades, it reverses this and the header section looks a little goofy. It might be nice to have a way to keep the header dark (try Shades on Github for an example of this problem).
 
-Since Shades is open source, please contribute Pull Requests to address any of these issues! If you run into any problems, [open a new issue](https://github.com/marktron/shades-chrome/issues/new) with steps to reproduce it.
+Since Shades is open source, please contribute Pull Requests to fix any of these issues! If you run into any problems, [open a new issue](https://github.com/marktron/shades-chrome/issues/new) with steps to reproduce it.
 
 ## Examples of Shades in use
 
