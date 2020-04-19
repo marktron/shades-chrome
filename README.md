@@ -32,15 +32,15 @@ A partial list of things that don’t work well yet, or haven’t been attempted
 
 Shades is open source, so please contribute Pull Requests to fix any of these issues! If you run into any problems, [open a new issue](https://github.com/marktron/shades-chrome/issues/new) with steps to reproduce it.
 
-## Examples of Shades in use
+## Examples of the Shades extension in use
 
 Here's how Shades look when applied to some websites that don’t have a dark theme.
 
-**NY Times**
-![NY Times](http://markallen.io.s3-us-east-2.amazonaws.com/1587319235.png)
+**New York Times**
+![NY Times](http://markallen.io.s3-us-east-2.amazonaws.com/1587319556.png)
 
 **Reddit**
-![Reddit](http://markallen.io.s3-us-east-2.amazonaws.com/1587319258.png)
+![Reddit](http://markallen.io.s3-us-east-2.amazonaws.com/1587319555.png)
 
 **Medium**
-![Medium](http://markallen.io.s3-us-east-2.amazonaws.com/1587319272.png)
+![Medium](http://markallen.io.s3-us-east-2.amazonaws.com/1587319557.png)
