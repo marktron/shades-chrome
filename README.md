@@ -37,10 +37,10 @@ Shades is open source, so please contribute Pull Requests to fix any of these is
 Here's how Shades look when applied to some websites that don’t have a dark theme.
 
 **NY Times**
-![NY Times](http://markallen.io.s3-us-east-2.amazonaws.com/1587316855.png)
+![NY Times](http://markallen.io.s3-us-east-2.amazonaws.com/1587319235.png)
 
 **Reddit**
-![Reddit](http://markallen.io.s3-us-east-2.amazonaws.com/1587318402.png)
+![Reddit](http://markallen.io.s3-us-east-2.amazonaws.com/1587319258.png)
 
 **Medium**
-![Medium](http://markallen.io.s3-us-east-2.amazonaws.com/1587318363.png)
+![Medium](http://markallen.io.s3-us-east-2.amazonaws.com/1587319272.png)
