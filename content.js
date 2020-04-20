@@ -107,17 +107,22 @@ setStyles = () => {
       el.backgroundImage !== "none" &&
       el.backgroundImage.includes("-gradient(")
     ) {
-      const parsedGradient = GradientParser.parse(el.backgroundImage);
-      if (parsedGradient) {
-        backgroundImageString = transformGradient(
-          el.backgroundImage,
-          parsedGradient
-        );
-        node.style.setProperty(
-          "background-image",
-          backgroundImageString,
-          "important"
-        );
+      try {
+        const parsedGradient = GradientParser.parse(el.backgroundImage);
+
+        if (parsedGradient) {
+          backgroundImageString = transformGradient(
+            el.backgroundImage,
+            parsedGradient
+          );
+          node.style.setProperty(
+            "background-image",
+            backgroundImageString,
+            "important"
+          );
+        }
+      } catch (e) {
+        console.log(e);
       }
     }
   }
