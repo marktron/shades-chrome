@@ -23,7 +23,6 @@ When you click the Shades button in your toolbar, the extension scans the page a
 
 A partial list of things that don’t work well yet, or haven’t been attempted:
 
-- The toolbar icon does not currently indicate whether you activated Shades or not. This would be useful since very large pages can take a few moments to render, creating a delay between pressing the toolbar button and seeing an updated page in dark mode.
 - Dark modes don’t persist yet from page to page on a site – you have to manually toggle the switch on every page load or refresh.
 - If HTML elements are inserted or loaded on the the page after you apply Shades, it doesn’t receive updated styles and can look out of place.
 - HTML elements with `:before` or `:after` pseudo-selectors aren’t being styled by Shades right now.
@@ -38,6 +37,9 @@ Here's how Shades look when applied to some websites that don’t have a dark th
 
 **New York Times**
 ![NY Times](http://markallen.io.s3-us-east-2.amazonaws.com/1587319556.png)
+
+**Wikipedia**
+![Wikipedia](http://markallen.io.s3-us-east-2.amazonaws.com/1587347252.png)
 
 **Reddit**
 ![Reddit](http://markallen.io.s3-us-east-2.amazonaws.com/1587319555.png)

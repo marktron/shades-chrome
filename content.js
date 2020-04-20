@@ -170,7 +170,7 @@ setStyles = () => {
 chrome.runtime.onMessage.addListener(function (msg, sender, sendResponse) {
   if (msg.text === "report_back") {
     setStyles();
-    sendResponse(true, sender);
+    sendResponse({ msg: "true", tab_id: msg.tab_id });
   }
   return true;
 });
